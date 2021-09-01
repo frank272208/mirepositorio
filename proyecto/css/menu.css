@@ -31,3 +31,6 @@ header nav ul li a{
     text-decoration: none;
 
 }
+header nav ul li a:hover{
+    background: #037e8c;
+}
