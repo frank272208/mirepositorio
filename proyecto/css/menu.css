@@ -35,7 +35,7 @@ header nav ul li a:hover{
     background: #037e8c;
 }
 
-@media screen and (max-width:80px) {
+@media screen and (max-width:800px) {
     header nav{
         width: 80%;
         height: 100%;
@@ -65,4 +65,8 @@ header nav ul li a:hover{
         box-sizing: border-box;
     }
     
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
 }
