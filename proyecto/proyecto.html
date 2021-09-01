@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="stilos.css">
+    <link rel="stylesheet" href="/proyecto/css/menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
@@ -18,13 +18,16 @@
             <div>
                 <img src="imagenes/logo.jpg">
             </div>
-            <nav class="menu">
-                <a href="#">Inicio</a>
-                <a href="#">Lugares</a>
-                <a href="#">Reservas</a>
-                <a href="#">Servicios</a>
-                <a href="#">Contanto</a>
-                <a href="#">Galeria</a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="MenuDesplegable1()">&#9776; Menu</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Lugares</a></li>
+                    <li><a href="#">Reservas</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Galeria</a></li>
+                </ul>
             </nav>
         </header>
         <main>
@@ -87,6 +90,7 @@
         </footer>
 
     </div>
+    <script src="/proyecto/js/menu.js"></script>
 </body>
 
 </html>
