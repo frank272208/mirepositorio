@@ -38,7 +38,6 @@ nav {
 	display: block;
 }
 
-/* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
 	.navigation {
 		display: flex;
