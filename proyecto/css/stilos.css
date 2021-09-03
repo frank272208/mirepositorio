@@ -8,6 +8,7 @@ body {
 	background:url('imagenes/fondo.jfif');
 	background-size: cover;
 	background-attachment: fixed;
+	background: rgba(255,255,255,.3);
 }
 .contenedor {
 	margin: auto;
