@@ -13,6 +13,7 @@ html {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background: rgba(255,255,255,.3);
   }
   
   /*Galeria de Imagenes*/
