@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: #fffffa;
+    background: rgba(255,255,255,.3);
 }
 header{
     width: 100%;
