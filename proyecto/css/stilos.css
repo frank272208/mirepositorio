@@ -11,34 +11,13 @@ body {
 	background-attachment: fixed;
 }
 
-.contenedor {
-	margin: auto;
-	width: 90%;
-	max-width: 1000px;
-	display: flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-}
 
-header {
-	width: 100%;
-	padding: 50px 0;
 
-	display: flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	justify-content:space-between;
-	align-items:center;
-}
 
-header .menu a {
-	color: #fff;
-	text-decoration: none;
-	margin-right:40px;
-	font-size: 18px;
-}
 
-header .menu a:hover {text-decoration: underline;}
+
+
+
 
 .main {
 	background: #fff;
@@ -77,14 +56,6 @@ aside {
 	justify-content:space-between;
 }
 
-aside .ad {
-	font-size: 30px;
-	text-align: center;
-	color: #fff;
-	padding: 50px 0;
-	/*margin: 20px 0;*/
-	background: #796135;
-}
 
 footer {
 	margin-top: 20px;
@@ -117,30 +88,20 @@ footer .redes-sociales a:hover {
 {
 	
 
-	.menu a:first-child {
-		display: none;
-	}
+	
 
 	.main {
 		width: 100%;
 	}
 
-	aside {
-		width: 100%;
-		flex-direction:row;
-	}
+	
 
-	aside .ad {
-		width: 40%;
-	}
+	
 }
 
 @media screen and (max-width: 600px) {
 
-	.menu a:first-child
-    {
-        display: inline-block;
-    }
+	
 	.menu a
     {
         display: none;
@@ -150,25 +111,8 @@ footer .redes-sociales a:hover {
     {
         display:inline-block;;
     }
-	header {
-		flex-direction:column;
-		padding-bottom: 20px; 
-	}
 
-	header .menu {
-		width: 100%;
-		background: rgba(255,255,255,.2);
-		text-align: center;
-		padding: 20px;
-	}
 
-	header .logo {
-		margin-bottom: 20px;
-	}
-
-	header .menu a {
-		margin:0 20px; 
-	}
 
 	footer {
 		flex-direction:column;
